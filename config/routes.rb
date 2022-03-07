@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get "/phones" => "phones#index"
   get "/users" => "users#index"
   get "/bananas" => "bananas#index"
+  get "/patrick" => "patrick#index"
 end
