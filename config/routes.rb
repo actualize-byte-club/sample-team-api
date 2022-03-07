@@ -1,8 +1,15 @@
 Rails.application.routes.draw do
   get "/pages" => "pages#index"
-<<<<<<< HEAD
   get "messages" => "messages#index"
-=======
   get "/bananas" => "bananas#index"
->>>>>>> 36f10d80dfcb79d8934298c39b11f49d249d0c3c
+  get "/newpages" => "new_pages#index"
+  get "/ben" => "bens#index"
+  get "/animals" => "animals#index"
+  get "/news" => "news#index"
+  get "/turkey" => "turkey#index"
+  get "/test" => "test#index"
+  get "/phones" => "phones#index"
+  get "/users" => "users#index"
+  get "/bananas" => "bananas#index"
+  get "/patrick" => "patrick#index"
 end
