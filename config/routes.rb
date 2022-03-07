@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   get "/pages" => "pages#index"
+  get "messages" => "messages#index"
+  get "/bananas" => "bananas#index"
   get "/newpages" => "new_pages#index"
   get "/ben" => "bens#index"
   get "/animals" => "animals#index"
