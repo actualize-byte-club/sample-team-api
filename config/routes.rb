@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   get "/pages" => "pages#index"
-
   get "/news" => "news#index"
-  
+  get "/turkey" => "turkey#index"
+  get "/test" => "test#index"
+  get "/phones" => "phones#index"
+  get "/users" => "users#index"
   get "/bananas" => "bananas#index"
+  get "/patrick" => "patrick#index"
 end
