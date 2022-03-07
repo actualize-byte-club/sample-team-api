@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get "/pages" => "pages#index"
+  get "/news" => "news#index"
   get "/turkey" => "turkey#index"
   get "/test" => "test#index"
   get "/phones" => "phones#index"
