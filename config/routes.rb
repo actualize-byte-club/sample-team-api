@@ -10,4 +10,5 @@ Rails.application.routes.draw do
   get "/users" => "users#index"
   get "/bananas" => "bananas#index"
   get "/patrick" => "patrick#index"
+  get "/messages" => "messages#index"
 end
